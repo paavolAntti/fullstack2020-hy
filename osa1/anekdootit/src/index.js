@@ -8,7 +8,7 @@ const App = (props) => {
     const selectAnecdote = () => {
         const randomIndex = Math.floor(Math.random() * Math.floor(anecdotes.length))
         console.log(randomIndex)
-        setSelected(selected-selected+randomIndex)
+        setSelected(randomIndex)
     }
     
     const voteAnecdote = () => {
